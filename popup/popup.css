@@ -1,0 +1,36 @@
+body {
+  width: 200px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.errors {
+  margin-left: -25px;
+}
+
+.errors li {
+  color: red;
+}
+
+.btns {
+  display: flex;
+}
+
+.btns .write {
+  background-color: #1b85ff;
+}
+
+.btns .place {
+  background-color: #4caf50;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

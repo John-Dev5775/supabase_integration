@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./plugins/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="./plugins/fontawesome/css/brands.css" />
+    <link rel="stylesheet" href="./plugins/fontawesome/css/solid.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-2/assets/css/timeline-2.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body data-bs-theme="dark">
+    <div class="header">
+      <div class="container-xxl p-2 ps-lg-5 pt-lg-3 px-xxl-0">
+        <div class="d-flex justify-content-between mb-2">
+          <div class="d-flex align-items-center">
+            <h3>Navigate Youth Conservation Corps Program Web...</h3>
+            <button class="btn btn-outline-secondary fs-5 rounded-3 ms-2">
+              <i class="fas fa-edit"></i>
+            </button>
+          </div>
+          <div class="position-relative">
+            <button class="btn btn-share">
+              <i class="fas fa-share"></i> Share & Export
+            </button>
+            <div class="position-absolute p-2 d-none pane">
+              <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target=".personalize"
+                    type="button"
+                    role="tab"
+                    aria-selected="false"
+                  >
+                    <i class="fas fa-user"></i> Personalize
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    data-bs-toggle="tab"
+                    data-bs-target=".export"
+                    type="button"
+                    role="tab"
+                    aria-selected="true"
+                  >
+                    <i class="fas fa-file-export"></i> Export
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target=".share"
+                    type="button"
+                    role="tab"
+                    aria-selected="false"
+                  >
+                    <i class="fas fa-share"></i> Share
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target=".embed"
+                    type="button"
+                    role="tab"
+                    aria-selected="false"
+                  >
+                    <i class="fa-solid fa-code"></i> Embed
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane personalize" role="tabpanel"></div>
+                <div class="tab-pane active export" role="tabpanel">
+                  <div
+                    class="d-flex justify-content-between align-items-center p-3 rounded-3 mt-2 item"
+                  >
+                    <div>
+                      <i class="fas fa-file-pdf"></i>
+                      <span>Export to PDF</span>
+                    </div>
+                    <i class="fas fa-file-export"></i>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center p-3 rounded-3 mt-2 item"
+                  >
+                    <div>
+                      <i class="fas fa-file-pdf"></i>
+                      <span>Export to PDF</span>
+                    </div>
+                    <i class="fas fa-file-export"></i>
+                  </div>
+                </div>
+                <div class="tab-pane share" role="tabpanel"></div>
+                <div class="tab-pane embed" role="tabpanel"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex align-items-center text-secondary mb-2 user-info">
+          <div
+            class="d-flex justify-content-center align-items-center rounded-circle text-white me-1 avatar"
+          >
+            T
+          </div>
+          <span>Test123</span>
+          <div class="mx-3 divider"></div>
+          <span>5 minutes ago</span>
+          <div class="mx-3 divider"></div>
+          <div class="dropdown open">
+            <div
+              class="d-flex align-items-center"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-globe"></i>
+              <span class="mx-2">Public</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Public</a>
+              <a class="dropdown-item" href="#">Private</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-secondary sites">
+          <label>Sites Used: </label>
+          <span class="rounded-1">National park Service</span>
+        </div>
+      </div>
+    </div>
+    <div class="container-xxl p-2 ps-lg-5 pt-lg-3 px-xxl-0 content">
+      <p>HI, Ris</p>
+      <p>From: on TheFly Wiki company</p>
+      <div class="bsb-timeline-2 mt-5">
+        <ul class="timeline">
+          <li class="timeline-item">
+            <span class="timeline-icon">1</span>
+            <div class="timeline-body">
+              <div class="timeline-content">
+                <div class="d-flex align-items-center visit">
+                  <span class="fs-5 me-3">Visit</span>
+                  <div
+                    class="d-flex justify-content-between align-items-center flex-fill p-1 rounded-3 link"
+                  >
+                    <a href="#"
+                      >Youth Conservation Crops - Youth & Young Adult Programs
+                      (U.S. National Park Service)</a
+                    >
+                    <i class="fas fa-link"></i>
+                  </div>
+                </div>
+                <div class="mt-5 divider"></div>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-icon">2</span>
+            <div class="timeline-body">
+              <div class="timeline-content">
+                <div class="screen">
+                  <div class="d-flex align-items-center">
+                    <h5>Check on "Recreation"</h5>
+                    <button
+                      class="btn btn-outline-secondary fs-5 rounded-3 ms-2"
+                    >
+                      <i class="fas fa-edit"></i>
+                    </button>
+                  </div>
+                  <div class="d-flex mt-3">
+                    <img src="./images/screen.png" class="w-100" />
+                    <div>
+                      <button
+                        class="btn btn-outline-secondary fs-5 rounded-3 m-1"
+                      >
+                        <i class="fas fa-trash"></i>
+                      </button>
+                      <button
+                        class="btn btn-outline-secondary fs-5 rounded-3 m-1"
+                      >
+                        <i class="fas fa-copy"></i>
+                      </button>
+                      <button
+                        class="btn btn-outline-secondary fs-5 rounded-3 m-1"
+                      >
+                        <i class="fas fa-image"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-5 divider"></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
